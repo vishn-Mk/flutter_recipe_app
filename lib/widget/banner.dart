@@ -44,7 +44,6 @@ class BannerToExplore extends StatelessWidget {
           }).toList(),
         ),
 
-        const SizedBox(height: 20),
 
         // Existing Banner Section with Text and Button
         // Container(

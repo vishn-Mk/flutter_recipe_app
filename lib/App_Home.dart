@@ -65,7 +65,7 @@ class _MyAppHomeScreenState extends State<MyAppHomeScreen> {
                     ),
                     // for category
                     selectedCategory(),
-                    const SizedBox(height: 10),
+
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -158,7 +158,7 @@ class _MyAppHomeScreenState extends State<MyAppHomeScreen> {
                       horizontal: 20,
                       vertical: 10,
                     ),
-                    margin: const EdgeInsets.only(right: 20),
+                    margin: const EdgeInsets.only(right: 10),
                     child: Text(
                       streamSnapshot.data!.docs[index]['Name'],
                       style: TextStyle(
@@ -213,7 +213,7 @@ class _MyAppHomeScreenState extends State<MyAppHomeScreen> {
         const Text(
           "What are you\ncooking today?",
           style: TextStyle(
-            fontSize: 32,
+            fontSize: 28,
             fontWeight: FontWeight.bold,
             height: 1,
           ),

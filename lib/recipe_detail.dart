@@ -303,7 +303,7 @@ class _RecipeDetailScreenState extends State<RecipeDetailScreen> {
             style: ElevatedButton.styleFrom(
                 backgroundColor: kprimaryColor,
                 padding:
-                const EdgeInsets.symmetric(horizontal: 100, vertical: 13),
+                const EdgeInsets.symmetric(horizontal: 70, vertical: 13),
                 foregroundColor: Colors.white),
             onPressed: () {},
             child: const Text(

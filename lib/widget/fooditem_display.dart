@@ -27,6 +27,7 @@ class FoodItemsDisplay extends StatelessWidget {
       child: Container(
         margin: const EdgeInsets.only(right: 10),
         width: 230,
+
         child: Stack(
           children: [
             Column(
@@ -36,7 +37,7 @@ class FoodItemsDisplay extends StatelessWidget {
                   tag: documentSnapshot['image'],
                   child: Container(
                     width: double.infinity,
-                    height: 160,
+                    height: 140,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15),
                       image: DecorationImage(
@@ -48,7 +49,6 @@ class FoodItemsDisplay extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 10),
                 Text(
                   documentSnapshot['name'],
                   style: const TextStyle(
@@ -56,7 +56,6 @@ class FoodItemsDisplay extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                const SizedBox(height: 5),
                 Row(
                   children: [
                     const Icon(
